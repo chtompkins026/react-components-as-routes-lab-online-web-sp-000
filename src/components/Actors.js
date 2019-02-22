@@ -11,7 +11,6 @@ const Actors = () => {
           {actor.movies.map(movie => <li>{movie}</li>)}
         </div> 
       )}
-      
     </div>
   );
 };
